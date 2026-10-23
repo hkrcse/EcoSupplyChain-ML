@@ -1,0 +1,193 @@
+{
+ "gas": {
+  "V3": {
+   "deploy": [
+    2997288
+   ],
+   "registerParticipant": [
+    90113,
+    90125,
+    90089,
+    90089,
+    90089,
+    90113
+   ],
+   "uploadProduct": [
+    693773,
+    650613,
+    653153,
+    655693,
+    658233
+   ],
+   "transferProduct": [
+    469347,
+    461747,
+    461747,
+    460130,
+    435430,
+    418330,
+    465201,
+    440501,
+    423401,
+    470272,
+    445572,
+    428472,
+    470543,
+    450643,
+    433543
+   ],
+   "recycleWaste": [
+    138848,
+    138848,
+    138848,
+    109722,
+    109722,
+    109722,
+    114784,
+    114784,
+    114784,
+    119846,
+    119846,
+    119846
+   ],
+   "recycle": [
+    82918,
+    68361,
+    70892,
+    73423
+   ],
+   "authorityTaxWaiveToFactory": [
+    57805
+   ]
+  },
+  "V4": {
+   "deploy": [
+    2745732
+   ],
+   "registerParticipant": [
+    72085,
+    72097,
+    72061,
+    72061,
+    72061,
+    72085
+   ],
+   "setRiskService": [
+    29317
+   ],
+   "uploadProduct": [
+    438828,
+    390328,
+    390328,
+    390328,
+    390328
+   ],
+   "transferProduct": [
+    152477,
+    144877,
+    144877,
+    135389,
+    110689,
+    93589,
+    135389,
+    110689,
+    93589,
+    135389,
+    110689,
+    93589,
+    130589,
+    110689,
+    93589
+   ],
+   "requestReturn": [
+    212100,
+    194758,
+    194758,
+    214912,
+    214670,
+    214670,
+    214912,
+    214670,
+    214670,
+    214912,
+    214670,
+    214670
+   ],
+   "submitAssessment": [
+    186325,
+    169225,
+    169225,
+    99936,
+    135025,
+    135025,
+    152125,
+    135025,
+    135025,
+    152125,
+    135025,
+    135025
+   ],
+   "recycle": [
+    78917,
+    61829,
+    61829,
+    61829
+   ],
+   "resolveHold": [
+    84194
+   ],
+   "authorityTaxWaiveToFactory": [
+    57669
+   ]
+  }
+ },
+ "attacks": {
+  "V3": {
+   "A1 duplicate reward, second wallet": "SUCCEEDED",
+   "A2 reward for unsold item": "SUCCEEDED",
+   "A3 reuse claim without return": "SUCCEEDED",
+   "A4 reuse claim by other factory": "SUCCEEDED"
+  },
+  "V4": {
+   "A1 duplicate reward, second wallet": "REVERTED: revert Caller is not the upstream collector",
+   "A2 reward for unsold item": "REVERTED: revert Item never reached a buyer",
+   "A3 reuse claim without return": "REVERTED: revert Material not returned",
+   "A4 reuse claim by other factory": "REVERTED: revert Only manufacturer"
+  }
+ },
+ "gasMean": {
+  "V3": {
+   "deploy": 2997288,
+   "registerParticipant": 90103,
+   "uploadProduct": 662293,
+   "transferProduct": 448992,
+   "recycleWaste": 120800,
+   "recycle": 73899,
+   "authorityTaxWaiveToFactory": 57805
+  },
+  "V4": {
+   "deploy": 2745732,
+   "registerParticipant": 72075,
+   "setRiskService": 29317,
+   "uploadProduct": 400028,
+   "transferProduct": 119740,
+   "requestReturn": 211198,
+   "submitAssessment": 144926,
+   "recycle": 66101,
+   "resolveHold": 84194,
+   "authorityTaxWaiveToFactory": 57669
+  }
+ },
+ "latencyMean": {
+  "registerParticipant": 257.5,
+  "uploadProduct": 260,
+  "transferProduct": 258.2,
+  "recycleWaste": 259.1,
+  "recycle": 257.3,
+  "authorityTaxWaiveToFactory": 259.8,
+  "setRiskService": 251.5,
+  "requestReturn": 263.7,
+  "submitAssessment": 257.4,
+  "resolveHold": 249.2
+ }
+}

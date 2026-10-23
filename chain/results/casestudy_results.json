@@ -1,0 +1,22 @@
+{
+ "V3": {
+  "claims_accepted": 15,
+  "claims_blocked": 0,
+  "sybil_reward_eth": "2.8",
+  "reuse_calls_accepted": 9,
+  "plastic_reused_g": "1800",
+  "plastic_bought_g": "2000",
+  "tax_due": "550",
+  "waiver_if_applied": "495"
+ },
+ "V4": {
+  "claims_accepted": 1,
+  "claims_blocked": 14,
+  "sybil_reward_eth": "0.0",
+  "reuse_calls_accepted": 0,
+  "plastic_reused_g": "0",
+  "plastic_bought_g": "2000",
+  "tax_due": "550",
+  "waiver_if_applied": "0"
+ }
+}

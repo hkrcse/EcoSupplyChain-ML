@@ -1,0 +1,15 @@
+{
+  "name": "ecosupplychain-chain-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gas benchmark, attack replay, and security case study for the V3 and V4 EcoSupplyChain contracts",
+  "scripts": {
+    "bench": "node bench.js",
+    "casestudy": "node casestudy.js"
+  },
+  "dependencies": {
+    "ethers": "6.13.2",
+    "ganache": "7.9.2",
+    "solc": "0.8.19"
+  }
+}

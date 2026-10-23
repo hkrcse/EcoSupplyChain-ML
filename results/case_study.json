@@ -1,0 +1,166 @@
+{
+ "threshold": 0.0021035899873478306,
+ "rule_threshold": 1.0000089241642414,
+ "stores": {
+  "7": {
+   "scheme": "S4_lowslow",
+   "n_fraud": 40,
+   "n_legit": 560,
+   "fraud_held_ml": 40,
+   "fraud_held_rules": 22,
+   "legit_held_ml": 16,
+   "legit_held_rules": 4,
+   "fraud_value": 2.0,
+   "fraud_value_paid_ml": 0.0,
+   "fraud_value_paid_rules": 0.79,
+   "median_fraud": {
+    "n_items": 2.0,
+    "w_age": 16.88066385331284,
+    "w_prev_req": 0.0,
+    "delay_med": 6.641791461039574,
+    "resid": -0.28382239713121005,
+    "w_ret_ratio": 0.0,
+    "s_ret_ratio_30": 0.4495546929229186,
+    "s_new_wallet_frac": 0.053635318170201854
+   },
+   "median_legit": {
+    "n_items": 2.0,
+    "w_age": 126.0427747146511,
+    "w_prev_req": 9.0,
+    "delay_med": 12.22219830549301,
+    "resid": 0.0008903886987306499,
+    "w_ret_ratio": 0.3333333333333333,
+    "s_ret_ratio_30": 0.4471851421938479,
+    "s_new_wallet_frac": 0.054258241758241704
+   }
+  },
+  "28": {
+   "scheme": "S4_lowslow",
+   "n_fraud": 40,
+   "n_legit": 537,
+   "fraud_held_ml": 40,
+   "fraud_held_rules": 15,
+   "legit_held_ml": 1,
+   "legit_held_rules": 1,
+   "fraud_value": 2.21,
+   "fraud_value_paid_ml": 0.0,
+   "fraud_value_paid_rules": 1.355,
+   "median_fraud": {
+    "n_items": 2.0,
+    "w_age": 16.553959674833237,
+    "w_prev_req": 0.5,
+    "delay_med": 5.814766370249913,
+    "resid": -0.2023596653323898,
+    "w_ret_ratio": 0.1,
+    "s_ret_ratio_30": 0.47439477928146134,
+    "s_new_wallet_frac": 0.06341294186386205
+   },
+   "median_legit": {
+    "n_items": 2.0,
+    "w_age": 131.850288921063,
+    "w_prev_req": 10.0,
+    "delay_med": 11.351093913557603,
+    "resid": 0.0056793767475225,
+    "w_ret_ratio": 0.3793103448275862,
+    "s_ret_ratio_30": 0.4726519337016575,
+    "s_new_wallet_frac": 0.0666666666666666
+   }
+  },
+  "33": {
+   "scheme": "S4_lowslow",
+   "n_fraud": 45,
+   "n_legit": 561,
+   "fraud_held_ml": 44,
+   "fraud_held_rules": 22,
+   "legit_held_ml": 13,
+   "legit_held_rules": 3,
+   "fraud_value": 2.505,
+   "fraud_value_paid_ml": 0.025,
+   "fraud_value_paid_rules": 1.1199999999999999,
+   "median_fraud": {
+    "n_items": 2.0,
+    "w_age": 15.974028174144848,
+    "w_prev_req": 1.0,
+    "delay_med": 4.551374551946253,
+    "resid": -0.2356177352036483,
+    "w_ret_ratio": 0.25,
+    "s_ret_ratio_30": 0.4305369127516778,
+    "s_new_wallet_frac": 0.0718232044198895
+   },
+   "median_legit": {
+    "n_items": 2.0,
+    "w_age": 122.91410132065012,
+    "w_prev_req": 9.0,
+    "delay_med": 11.706746554375371,
+    "resid": 0.0060651058775924,
+    "w_ret_ratio": 0.3287671232876712,
+    "s_ret_ratio_30": 0.4335202903332233,
+    "s_new_wallet_frac": 0.0790960451977401
+   }
+  },
+  "6": {
+   "scheme": "S1_phantom",
+   "n_fraud": 102,
+   "n_legit": 436,
+   "fraud_held_ml": 102,
+   "fraud_held_rules": 102,
+   "legit_held_ml": 21,
+   "legit_held_rules": 91,
+   "fraud_value": 42.655,
+   "fraud_value_paid_ml": 0.0,
+   "fraud_value_paid_rules": 0.0,
+   "median_fraud": {
+    "n_items": 19.0,
+    "w_age": 65.3688446902056,
+    "w_prev_req": 4.5,
+    "delay_med": 0.3250198745186736,
+    "resid": -0.8859655797233832,
+    "w_ret_ratio": 0.813823642664613,
+    "s_ret_ratio_30": 0.5844304522037779,
+    "s_new_wallet_frac": 0.0382165605095541
+   },
+   "median_legit": {
+    "n_items": 2.0,
+    "w_age": 103.44102530157232,
+    "w_prev_req": 8.0,
+    "delay_med": 11.934126143384013,
+    "resid": -0.0027782436207639,
+    "w_ret_ratio": 0.3485155195681511,
+    "s_ret_ratio_30": 0.586357457677563,
+    "s_new_wallet_frac": 0.0384615384615384
+   }
+  },
+  "11": {
+   "scheme": "S1_phantom",
+   "n_fraud": 95,
+   "n_legit": 618,
+   "fraud_held_ml": 95,
+   "fraud_held_rules": 95,
+   "legit_held_ml": 11,
+   "legit_held_rules": 0,
+   "fraud_value": 38.395,
+   "fraud_value_paid_ml": 0.0,
+   "fraud_value_paid_rules": 0.0,
+   "median_fraud": {
+    "n_items": 18.0,
+    "w_age": 95.49479961240112,
+    "w_prev_req": 6.0,
+    "delay_med": 0.2842919908657109,
+    "resid": -0.8763045003866685,
+    "w_ret_ratio": 0.8493975903614458,
+    "s_ret_ratio_30": 0.5210815765352887,
+    "s_new_wallet_frac": 0.0256410256410256
+   },
+   "median_legit": {
+    "n_items": 2.0,
+    "w_age": 119.16995282875187,
+    "w_prev_req": 9.0,
+    "delay_med": 11.017728828001523,
+    "resid": 0.00269890738394125,
+    "w_ret_ratio": 0.3333333333333333,
+    "s_ret_ratio_30": 0.5248807089297887,
+    "s_new_wallet_frac": 0.0256410256410256
+   }
+  }
+ }
+}

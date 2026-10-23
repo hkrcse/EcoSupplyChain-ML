@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper."
+title: "EcoSupplyChain-ML: code and EcoSC-Sim data"
+authors:
+  - family-names: Rupok
+    given-names: Md. Humayan Kabir
+  - family-names: Hasan
+    given-names: Rakibul
+  - family-names: Islam
+    given-names: Md. Masudul
+  - family-names: Islam
+    given-names: Md. Shafiqul
+repository-code: "https://github.com/hkrcse/EcoSupplyChain-ML"
+license: MIT
+preferred-citation:
+  type: article
+  title: "EcoSupplyChain-ML: Cross-Flow Fraud Detection for Blockchain-Based Recycling Incentives in a Dual-Flow Supply Chain"
+  authors:
+    - family-names: Rupok
+      given-names: Md. Humayan Kabir
+    - family-names: Hasan
+      given-names: Rakibul
+    - family-names: Islam
+      given-names: Md. Masudul
+    - family-names: Islam
+      given-names: Md. Shafiqul
+  journal: "ICACT Transactions on Advanced Communications Technology"
+  year: 2026

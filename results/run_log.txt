@@ -1,0 +1,43 @@
+seed 0 done in 103s
+seed 1 done in 92s
+seed 2 done in 98s
+seed 3 done in 90s
+seed 4 done in 86s
+                                                         pr_auc  ...  recall_S4_lowslow
+split             model                                          ...                   
+temporal          GBDT dual-flow (F+R+X)                  0.863  ...              0.813
+                  GBDT ensemble (full + no-material)      0.972  ...              0.956
+                  GBDT forward+reverse (no cross)         0.658  ...              0.562
+                  GBDT forward-only                       0.506  ...              0.474
+                  GBDT full (F+R+X+M+G)                   0.950  ...              0.962
+                  GBDT full - graph                       0.954  ...              0.959
+                  GBDT full - material                    0.876  ...              0.797
+                  GBDT full - material - graph            0.863  ...              0.813
+                  GBDT reverse-only                       0.523  ...              0.048
+                  Isolation Forest (full, unsupervised)   0.316  ...              0.000
+                  Logistic regression (full)              0.920  ...              0.881
+                  Rules                                   0.800  ...              0.456
+unseen-S1_phantom GBDT ensemble (full + no-material)      0.840  ...                NaN
+                  GBDT full (F+R+X+M+G)                   0.895  ...                NaN
+                  GBDT full - material                    0.332  ...                NaN
+                  Rules                                   1.000  ...                NaN
+unseen-S2_inflate GBDT ensemble (full + no-material)      0.824  ...                NaN
+                  GBDT full (F+R+X+M+G)                   0.875  ...                NaN
+                  GBDT full - material                    0.053  ...                NaN
+                  Rules                                   0.855  ...                NaN
+unseen-S3_ring    GBDT ensemble (full + no-material)      0.267  ...                NaN
+                  GBDT full (F+R+X+M+G)                   0.033  ...                NaN
+                  GBDT full - material                    0.372  ...                NaN
+                  Rules                                   0.072  ...                NaN
+unseen-S4_lowslow GBDT ensemble (full + no-material)      0.519  ...              0.645
+                  GBDT full (F+R+X+M+G)                   0.636  ...              0.778
+                  GBDT full - material                    0.045  ...              0.127
+                  Rules                                   0.464  ...              0.456
+unseen-stores     GBDT dual-flow (F+R+X)                  0.854  ...              0.742
+                  GBDT ensemble (full + no-material)      0.956  ...              0.866
+                  GBDT full (F+R+X+M+G)                   0.945  ...              0.896
+                  GBDT full - material - graph            0.854  ...              0.742
+                  Logistic regression (full)              0.865  ...              0.782
+                  Rules                                   0.826  ...              0.468
+
+[34 rows x 9 columns]
